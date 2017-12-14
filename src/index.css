@@ -48,9 +48,10 @@ body {
 }
 
 .bodytext {
-  font-size: 12px;
+  font-size: 11px;
   position: absolute;
-  top: 65px;
+  top: 80px;
+  left: 20px;
 }
 
 .byline {
@@ -63,10 +64,6 @@ body {
 }
 
 .innermargin {
-  margin: 20px;
-}
-
-.headermargin {
   margin-right: 20px;
 }
 
@@ -91,18 +88,13 @@ body {
 }
 
 .alphabet {
-  font-size: 35px;
+  font-size: 33px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 7px;
   position: absolute;
   top: 20px;
   left: 20px;
-  align-self: 
-}
-
-.aplhabetmargin {
-  margin-right: 20px;
 }
 
 .grid-container div:nth-child(5),

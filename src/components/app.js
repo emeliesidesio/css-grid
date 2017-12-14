@@ -27,15 +27,15 @@ class App extends React.Component {
 
         <div>
           <span className="headline">Usage</span>
-          <span className="bodytext innermargin">/ Apple’s iOS interface / NYC’s MTA & Chicago's Transit Authority signage / NASA Space Shuttle orbiter</span>
+          <span className="bodytext innermargin">/ Apple’s iOS interface<br /> / NYC’s MTA & Chicago's Transit Authority signage<br /> / NASA Space Shuttle orbiter</span>
         </div>
         <div>
           <span className="headline">Widths & weights</span>
-          <span className="bodytext innermargin">/ 9 weights / three widths (normal, condensed, extended) / 51 fonts total</span>
+          <span className="bodytext innermargin">/ 9 weights<br /> / three widths (normal, condensed, extended)<br /> / 51 fonts total</span>
         </div>
         <div>
           <span className="headline">Strokes</span>
-          <span className="bodytext innermargin">/ cut horizontally or vertically / distinguishes Helvetica from dupes like Arial</span>
+          <span className="bodytext innermargin">/ cut horizontally or vertically<br /> / distinguishes Helvetica from dupes like Arial</span>
         </div>
         <div>
           <span className="headline">Punctuation</span>
@@ -45,11 +45,11 @@ class App extends React.Component {
           <span className="quote">“I don’t care what it says, as long as it’s in Helvetica“</span>
         </div>
         <div className="wide">
-          <span className="alphabet aplhabetmargin">abcdefghijklmnopqrstuvwxyz</span>
+          <span className="alphabet">abcdefghijk<br />lmnopqrstu<br />vwxyz</span>
         </div>
         <div>
-          <span className="headline headermargin">Helvetica – the movie</span>
-          <span className="bodytext innermargin">/ documentary by Gary Hustwit / released for Helvetica's 50th birthday (2007)</span>
+          <span className="headline">Helvetica<br /> – the movie</span>
+          <span className="bodytext innermargin">/ documentary by Gary Hustwit<br /> / released for Helvetica's 50th birthday (2007)</span>
         </div>
       </div>
     )
