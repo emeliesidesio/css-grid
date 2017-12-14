@@ -15,15 +15,9 @@ class App extends React.Component {
           <span className="bodytext">Max Miedinger 1957</span>
         </div>
 
-        <div className="tall wide">
-          <div className="image" style={{ backgroundImage: `url(${a})` }} />
-        </div>
-        <div className="tall">
-          <div className="image" style={{ backgroundImage: `url(${curly})` }} />
-        </div>
-        <div>
-          <div className="image" style={{ backgroundImage: `url(${and})` }} />
-        </div>
+        <div className="wide tall a" style={{ backgroundImage: `url(${a})` }} />
+        <div className="tall curly" style={{ backgroundImage: `url(${curly})` }} />
+        <div className="and" style={{ backgroundImage: `url(${and})` }} />
 
         <div>
           <span className="headline">Usage</span>
